@@ -2,6 +2,8 @@
    TTL modulator for ARFI (Interrupt-based)
    Author: Shota Hodono (modified)
    Date: Oct 2025
+   NOTE: this is made for CMRR DW-SE EPI sequence on VE11c, the sequence sends TTL every excitation pulse
+   on XA60, the sequence sends TTL every volume TR. therefore you need a different strategy to synchronize yout TUS "nicely"...
 */
 
 const int outputPin = 3;  // TTL output signal pin

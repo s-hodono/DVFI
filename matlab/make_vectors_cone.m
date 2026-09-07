@@ -1,5 +1,12 @@
-%% Full Visualization: Cone Sampling Inside Sphere
 clear all
+%  ========================================================================
+%% description
+%  ========================================================================
+% Displacement Vector Field Imaging, 3D cone encoding vector prep with
+% visualization
+% author: Shota Hodono
+% Date: Oct 2025
+% cleaned up: Sep 2026
 
 %% setting
 bSAVE = false; % saving?
